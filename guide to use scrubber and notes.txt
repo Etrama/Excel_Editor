@@ -1,0 +1,13 @@
+RUN the following on the format source files:
+1. Remove version.
+2.CHange prefix.YY
+RUN the following on the scrubbed files:
+1.Remove version.(copy from the previous)
+2.Change prefix.XX
+3.Specific cell.
+4.General cell.
+THen run header footer update.
+
+OPENPYXL where it loses border for merged cells after the leftmost one. 
+It has not been fixed yet. 
+Tried workarounds, but manual editing will have to do for now.
